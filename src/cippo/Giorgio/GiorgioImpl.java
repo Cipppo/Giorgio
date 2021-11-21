@@ -25,7 +25,7 @@ public class GiorgioImpl {
         }
         
         
-        giorgio.SpawnMessage();
+        //giorgio.SpawnMessage();
         
         
     }
