@@ -7,9 +7,9 @@ import java.io.IOException;
 
 public class keyReader {
     
-    private final File file;
+    private final String file;
     
-    public keyReader(File file) {
+    public keyReader(String file) {
         this.file = file;
     }
     
