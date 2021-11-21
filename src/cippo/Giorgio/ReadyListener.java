@@ -1,7 +1,5 @@
 package cippo.Giorgio;
 
-import java.util.EventListener;
-
 import net.dv8tion.jda.api.events.GenericEvent;
 import net.dv8tion.jda.api.events.ReadyEvent;
 
