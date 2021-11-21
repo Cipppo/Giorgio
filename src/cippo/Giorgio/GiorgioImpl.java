@@ -6,7 +6,7 @@ public class GiorgioImpl {
     
     public static void main(String[] arg) {
         
-        Giorgio giorgio = new Giorgio("");
+        final Giorgio giorgio = new Giorgio("");
         
     }
     
