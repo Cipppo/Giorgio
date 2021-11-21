@@ -14,7 +14,8 @@ public class Giorgio {
     private final JDA jda;
 
     public Giorgio(String token) throws LoginException, InterruptedException {
-        this.jda = JDABuilder.createDefault(token).setStatus(OnlineStatus.ONLINE).addEventListeners(new cippo.Giorgio.ReadyListener()).build().awaitReady();
+        this.jda = JDABuilder.createDefault(token).setStatus(OnlineStatus.ONLINE).addEventListeners(new cippo.Giorgio.ReadyListener())
+                .addEventListeners(new cippo.Giorgio.reacListener()).build().awaitReady();
     }
     
     public void SpawnMessage() {
