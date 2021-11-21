@@ -19,7 +19,7 @@ public class Giorgio {
     }
     
     public void SpawnMessage() {
-        List<TextChannel> channels = this.jda.getTextChannelsByName("chat", true);
+        List<TextChannel> channels = this.jda.getTextChannelsByName("playground", true);
         for(TextChannel ch : channels) {
             ch.sendMessage("Spawn").queue();
         }

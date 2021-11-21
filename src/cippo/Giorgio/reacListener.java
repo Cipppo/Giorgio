@@ -7,6 +7,7 @@ public class reacListener extends ListenerAdapter{
     
     public void onMessageReactionAdd(MessageReactionAddEvent event) {
         
-        System.out.println("Reaction Added");
+        System.out.println("Reaction Added " + event.getMember().getUser());
+        
     }
 }
