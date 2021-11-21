@@ -18,11 +18,9 @@ public class Giorgio {
     }
     
     public void SpawnMessage() {
-        List<TextChannel> channels = this.jda.getTextChannels();
+        List<TextChannel> channels = this.jda.getTextChannelsByName("chat", true);
         for(TextChannel ch : channels) {
-            if(ch.getTopic() == "chat") {
-                ch.sendMessage("HERE I AM !").queue();
-            }
+            ch.sendMessage("Spawn").queue();
         }
     }
   
