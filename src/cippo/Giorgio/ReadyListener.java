@@ -3,8 +3,9 @@ package cippo.Giorgio;
 import java.util.EventListener;
 
 import net.dv8tion.jda.api.events.GenericEvent;
+import net.dv8tion.jda.api.events.ReadyEvent;
 
-public class ReadyEvent implements net.dv8tion.jda.api.hooks.EventListener{
+public class ReadyListener implements net.dv8tion.jda.api.hooks.EventListener{
 
     @Override
     public void onEvent(GenericEvent event) {
